@@ -218,7 +218,7 @@ while inputCorrect == False:
 This creates and writes to the output file the name of the best Pokemon to be sent out, 
 the best move attack type of that Pokemon to use, and the effectiveness of that move against the enemy
 '''
-with open('cps109_a1_output.txt', 'w') as outputHandle:
+with open('Poke_output.txt', 'w') as outputHandle:
     outputHandle.write("Don't worry... Now you'll never make a bad move again." +
           " This code will enable you to send in the ideal Pokemon when faced with an enemy." +
           " The best Pokemon to have out is " + maxPokemon + ", and the move type will be " +
