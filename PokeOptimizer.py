@@ -28,7 +28,7 @@ Opens the file containing the names of all 151 Pokemon and using a for loop, str
 Pokemon name and append it to the list
  '''
 listAllNames = []
-with open('CPS109_Assignment1_PokeNames.txt', 'r') as nameHandle:
+with open('PokeNames.txt', 'r') as nameHandle:
     for name in nameHandle:
         name = name.strip()
         listAllNames.append(name)
@@ -41,7 +41,7 @@ Using split at each comma, the list will now contain sublists that are the typin
 Note: for Pokemon with dual typing, there will be two typings within the sublist.
 '''
 listAllTypes = []
-with open('CPS109_Assignment1_PokeTypes.txt', 'r', encoding ='utf-8-sig') as typeHandle:
+with open('PokeTypes.txt', 'r', encoding ='utf-8-sig') as typeHandle:
     for typing in typeHandle:
         typing = typing.strip()
 
