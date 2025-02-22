@@ -1,3 +1,5 @@
 # Pokemon-Optimizer
 
 Developed a Python program that reads/writes files, takes user input, and returns the most optimal game move. The program manages Pokemon data, including typing, move options, and type effectiveness, using arrays and dictionaries to store and access data. Implemented a 2-D array based on Pokemon Type Charts from Generation 6 onwards. Implemented loops to iterate through the Pokemon roster and moveset, applying game logic to identify the best Pokemon and move combinations for maximum effectiveness in battle.
+
+The two text files must located in the same folder as the python file because it will read from those text files. This project is scalable because more Pokemon data can be added to the text files to make this optimizer work for newer Pokemon generations. In addition, more checks would have to be made for abilities that may affect type effectiveness (eg. Levitate would grant immunity from ground-type moves). For generation 6 and beyond, the 2-D array would have to be expanded to include the fairy type as well.  
